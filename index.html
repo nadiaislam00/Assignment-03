@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +16,74 @@
 
 
     <title>Rinterio</title>
-
-    <style>
-        .manrope{
-  font-family: "Manrope", sans-serif;
-}
-    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d'
+               
+              },
+              fontFamily: {
+      'manrope': ['Manrope', 'sans-serif'],
+    },
+            }
+          }
+        }
+      </script>
 </head>
 <body>
     
+    <!-- header section start -->
+<header class="w-11/12 mx-auto font-manrope">
+    <!-- navbar -->
+     <nav>
+        <div class="navbar bg-base-100 flex justify-between">
+            <div class="navbar-start gap-1">
+              <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>  <a class="text-3xl font-extrabold text-[#212121]">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex mr-7">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-[#373737] text-[15px] font-bold"><a>Home</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold "><a>Services</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold"><a>Portfolio</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold "><a>Blogs</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-2">
+                <button class="sm:block hidden  text-lg">
+                    <i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full outline outline-gray-100 text-gray-500"></i>
+                </button>
+               <button class="sm:block hidden text-lg">
+                <i class="fa-solid fa-cart-shopping bg-white p-3 rounded-full outline outline-gray-100 text-gray-500"></i>
+               </button>
+                
+                    <a class=" sm:block hidden btn bg-[#ABEF5F] rounded-full lg:flex "> <p class="font-bold text-lg">Book Consult</p><i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"></i> </a>
+                    <div class="dropdown">
+                      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <i class="fa-solid fa-bars"></i>
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                        <li class="text-[#494949]"><a>Home</a></li>
+                      <li class="text-[#737373]"><a>Services</a></li>
+                      <li class="text-[#737373]"><a>Portfolio</a></li>
+                      <li class="text-[#737373]"><a>Blogs</a></li>
+                      <li class="text-[#737373]"><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                </div>
+            
+            </div>
+          </div>
+     </nav>
+
+     <!-- banner -->
+
+</header>
+
+
 </body>
 </html>
