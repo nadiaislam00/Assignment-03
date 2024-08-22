@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,16 +26,19 @@
               },
               fontFamily: {
       'manrope': ['Manrope', 'sans-serif'],
+      background: {
+        'body': ['rgb(30, 30, 30)']
+      },
     },
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="bg-gray-500 h-screen">
     
     <!-- header section start -->
-<header class="w-11/12 mx-auto font-manrope">
+<header class="w-full p-3 mx-auto font-manrope bg-[#FFFFFFFF]">
     <!-- navbar -->
      <nav>
         <div class="navbar bg-base-100 flex justify-between">
@@ -44,11 +47,11 @@
             </div>
             <div class="navbar-center hidden lg:flex mr-7">
               <ul class="menu menu-horizontal px-1">
-                <li class="text-[#373737] text-[15px] font-bold"><a>Home</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold "><a>Services</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold"><a>Portfolio</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold "><a>Blogs</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold"><a>Contact Us</a></li>
+                <li class="text-[#373737] text-[15px] font-bold"><a class="hover:text-[#79d11c] hover:bg-none">Home</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold "><a class="hover:text-[#91de3e]">Services</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold"><a class="hover:text-[#91de3e]">Portfolio</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold "><a class="hover:text-[#91de3e]">Blogs</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold"><a class="hover:text-[#91de3e]">Contact Us</a></li>
               </ul>
             </div>
             <div class="navbar-end flex gap-2">
@@ -81,17 +84,19 @@
      </nav>
 
      <!-- banner -->
-<section class="banner items-center">
-  <div class="banner-content flex flex-col gap-4 lg:gap-2">
-    <img src="assets/banner.png" class="w-4/5 mx-auto lg:w-[50%]">
-    <h1 class="text-center font-extrabold text-[#212121] text-2xl lg:w-4/5 mx-auto text-4xl mb-2">A barn house of this design  has a striking appearance</h1>
-    <p class="text-center font-semibold text-sm text-[#878383] lg:w-[62%] mx-auto mb-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+<section class="banner items-center mb-10">
+  <div class="banner-content flex flex-col gap-4 lg:gap-1">
+    <img src="assets/banner.png" class="w-4/5 mx-auto lg:w-[45%]">
+    <h1 class="text-center font-extrabold text-[#212121] text-2xl w-[85%] lg:w-3/4 mx-auto text-4xl mb-2">A barn house of this design  has a striking appearance</h1>
+    <p class="text-center font-semibold text-sm text-[#878383] lg:w-[60%] mx-auto mb-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
     <a class="btn bg-[#ABEF5F80] rounded-full flex lg:w-[18%] mx-auto "> <p class="font-extrabold  text-xl">View Details</p><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] text-black rounded-full p-2"></i> </a>
   </div>
  
 </section>
 </header>
 
+<main>
 
+</main>
 </body>
 </html>
