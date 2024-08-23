@@ -32,7 +32,7 @@
         }
       </script>
 </head>
-<body>
+<body class="bg-gray-100">
     
     <!-- header section start -->
 <header class="w-full p-3 mx-auto font-manrope bg-[#FFFFFFFF]">
@@ -92,7 +92,7 @@
 </section>
 </header>
 
-<main class="bg-gray-100 p-3">
+<main class="bg-gray-100 p-3 w-11/12 mx-auto">
 <!-- about us -->
  <section class="img hidden lg:flex ml-10">
   <img src="assets/Vector.png" alt="">
@@ -136,7 +136,7 @@
 </section>
 
 <!-- review -->
- <section class="review w-11/12 mx-auto flex flex-col gap-10 bg-white rounded-xl mt-10 p-10 lg:flex-row items-center justify-center gap-10">
+ <section class="review w-11/12 mx-auto flex flex-col gap-10 bg-white rounded-xl mt-24 p-10 lg:flex-row items-center justify-center gap-10">
 <div class="card1 flex flex-col items-center">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
     <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
@@ -174,11 +174,11 @@
  </section>
 
  <!-- work process -->
-  <section class="work">
+  <section class="work mt-28">
     <!-- work content -->
     <div class="work-content items-center flex flex-col gap-2">
       <a class="btn bg-[#ffff] rounded-full w-[60%] flex items-center mt-5 mx-auto
-      lg:w-[15%] mb-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>  <p class="text-lg text-[#494949] font-bold">How we works</p></a>
+      lg:w-[18%] mb-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>  <p class="text-lg text-[#494949] font-bold">How we works</p></a>
     
    
     <h1 class="text-center font-extrabold text-[#212121] text-2xl lg:text-3xl mb-2">Our Work Process</h1>
@@ -209,6 +209,85 @@
       </div>
      </div>
   </section>
+
 </main>
+ <!-- Portfolio -->
+ <section class="w-full bg-gray-100 mt-36 lg:bg-white">
+  <!-- portfolio content -->
+  <div class="work-content items-center flex flex-col gap-2">
+    <a class="btn bg-[#ABEF5F33] rounded-full w-[70%] flex items-center mt-5 mx-auto md:w-[30%]
+    lg:w-[30%] mb-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>  <p class="lg:text-lg text-[#494949] font-bold">Explore Our Latest Works</p></a>
+  
+ 
+  <h1 class="text-center font-extrabold text-[#212121] text-2xl lg:text-4xl mb-4 mt-2">Our Latest Portfolio</h1>
+  <p class="text-center font-semibold text-sm text-[#878383] w-4/5 lg:w-2/4 mb-4">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+  </div>
+
+  <!-- portfolio layout -->
+
+  <!-- card-container1 -->
+  <div class="w-11/12 mx-auto card-container1 grid grid-cols-12 gap-3">
+    <div class="bg-white card1 flex flex-col items-center gap-10  border rounded-lg py-2 px-3  md:flex-row col-span-12 lg:col-span-9">
+     <div class="card-img md:w-full">
+      <img
+      src="assets/img1.png"
+      class="w-full" />
+     </div>
+      <div class="card-content flex flex-col gap-5">
+        <h2 class="text-[#494949] text-2xl font-extrabold mb-2">Commercial</h2>
+        <p class="text-[#737373] text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+        <a href="#"> <p class="font-extrabold  text-xl text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] text-black rounded-full p-2"></i></p> </a>
+  
+      </div>
+    </div>
+  <!-- card2 -->
+    <div class="bg-white border rounded-lg py-2 px-3 flex justify-center items-center col-span-12 md:col-span-6 lg:col-span-3 w-full">
+        <img
+          src="assets/img2.png"
+          class="w-full"  />
+      </div>
+
+      <!-- hidden part -->
+      <div class="bg-white border rounded-lg py-2 px-3 flex justify-center items-center col-span-12 md:col-span-6 lg:hidden">
+        <img
+          src="assets/img5.png"
+          class="md:w-[70%]" />
+      </div>
+    </div>
+<!-- card container2 -->
+    <div class=" card-container2 w-11/12 mx-auto grid grid-cols-12 gap-3 mt-5">
+<!-- card3 -->
+<div class="bg-white flex flex-col items-center gap-10  border rounded-lg py-2 px-3 col-span-12 order-last md:col-span-6 lg:col-span-3  justify-center lg:order-first">
+  <img
+    src="assets/img3.png"
+    class="w-full" />
+</div>
+<!-- card4 -->
+  <div class="bg-white flex flex-col items-center gap-10  border rounded-lg py-2 px-3 col-span-12 order-first md:flex-row lg:col-span-6 ">
+    <div class="cardimg md:w-full lg:w-[50%]">
+      <img
+      src="assets/img4.png"
+       />
+    </div>
+
+    <div class="card-content flex flex-col gap-2 lg:w-[50%]">
+      <h2 class="card-title text-[#494949] text-2xl font-extrabold mb-2 lg:mb-1">Commercial</h2>
+      <p class="text-[#737373] text-sm mb-5 lg:mb-0">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+      <a href="#"> <p class="font-extrabold  text-xl text-[#212121]">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] text-black rounded-full p-2"></i></p> </a>
+
+    </div>
+  </div>
+<!-- card5 -->
+<div class="bg-white border rounded-lg py-2 px-3 flex justify-center items-center col-span-12 order-last md:col-span-6 lg:col-span-3">
+  <img
+    src="assets/img5.png"
+    class="w-full" />
+</div>
+
+    </div>
+  
+
+ 
+     </section>
 </body>
 </html>
