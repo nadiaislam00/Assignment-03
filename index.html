@@ -28,7 +28,7 @@
       'manrope': ['Manrope', 'sans-serif'],
     },
     backgroundImage:{
-'bg-img':[]
+'back-img':"url('./assets/bg.jpg')",
     },
             }
           }
@@ -297,8 +297,62 @@
      </section>
 
      <!-- discuss -->
-      <section class="w-11/12 mx-auto mt-36 bg-gray-100">
+      <section class="w-full py-1  mt-36 bg-white">
+<div class="form-container w-full mx-auto bg-back-img bg-cover">
+  <!-- form -->
+   <div class="w-11/12 mx-auto">
+ <!-- form-content -->
+ <div>
+  <div class="form-content items-center flex flex-col">
+    <a class="btn bg-[#ABEF5F33] rounded-full w-[50%] flex items-center mt-5 mx-auto md:w-[30%]
+    lg:w-[30%] mb-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>  <p class="lg:text-lg text-[#494949] font-bold">Let's Connect </p></a>
+  
+ 
+  <h1 class="w-[80%] text-center font-extrabold text-[#212121] text-2xl lg:text-4xl mb-4 mt-2">Let's Discuss Next Project</h1>
+  <p class="text-center font-semibold text-sm text-[#878383] w-4/5 lg:w-2/4 mb-4">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+  </div>
 
+ </div>
+ <!-- form table -->
+  <div class=" flex flex-col gap-3 w-[90%] mx-auto lg:w-[70%]">
+<!-- input text -->
+    <div class="input-container grid grid-cols-4 gap-3">
+      <input
+      type="text"
+      placeholder="First Name*"
+      class="input rounded-full w-full col-span-4 lg:col-span-2 " />
+      <input
+    type="text"
+    placeholder="Last Name*"
+    class="input rounded-full w-full col-span-4 lg:col-span-2" />
+    <input
+    type="text"
+    placeholder="Phone Number*"
+    class="input rounded-full w-full col-span-4 lg:col-span-2" />
+    <input
+    type="text"
+    placeholder="Email Number*"
+    class="input rounded-full w-full col-span-4 lg:col-span-2" />
+    </div>
+  
+    <!-- textarea -->
+  
+     <textarea rows="10" placeholder="Write Your Message Here" class="p-5 rounded-3xl"></textarea>
+     
+     <!-- button -->
+     <a class="btn bg-[#ABEF5F] rounded-full mb-8 md:flex lg:flex "> <p class="font-bold text-lg md:text-sm">Send Mail</p><i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"></i> </a>
+  </div>
+
+   </div>
+ 
+</div>
       </section>
+
+
+  <footer class="bg-gray-100 p-1">
+<div class="footer-container bg-[#1C1C1C]">
+
+</div>
+  </footer>
 </body>
 </html>
