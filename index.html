@@ -35,23 +35,23 @@
         }
       </script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 relative">
     
     <!-- header section start -->
-<header class="w-full p-3 mx-auto font-manrope bg-[#FFFFFFFF]">
+<header class="w-full p-3 mx-auto font-manrope bg-[#FFFFFFFF] ">
     <!-- navbar -->
      <nav>
-        <div class="navbar bg-base-100 flex justify-between">
+        <div class="navbar bg-base-100 flex justify-between fixed top-0 left-0 right-0">
             <div class="navbar-start gap-1">
               <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>  <a class="text-3xl font-extrabold text-[#212121]">Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex mr-7">
               <ul class="menu menu-horizontal px-1">
-                <li class="text-[#373737] text-[15px] font-bold"><a class="hover:text-[#79d11c] hover:bg-none">Home</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold "><a class="hover:text-[#91de3e]">Services</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold"><a class="hover:text-[#91de3e]">Portfolio</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold "><a class="hover:text-[#91de3e]">Blogs</a></li>
-                <li class="text-[#737373] text-[15px] font-semi-bold"><a class="hover:text-[#91de3e]">Contact Us</a></li>
+                <li class="text-[#373737] text-[15px] font-bold"><a href="#home" class="hover:text-[#79d11c] hover:bg-none">Home</a></li>
+                <li  class="text-[#737373] text-[15px] font-semi-bold "><a href="#services" class="hover:text-[#91de3e]">Services</a></li>
+                <li  class="text-[#737373] text-[15px] font-semi-bold"><a href="#portfolio" class="hover:text-[#91de3e]">Portfolio</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold "><a href="#blogs" class="hover:text-[#91de3e]">Blogs</a></li>
+                <li class="text-[#737373] text-[15px] font-semi-bold"><a href="#contact" class="hover:text-[#91de3e]">Contact Us</a></li>
               </ul>
             </div>
             <div class="navbar-end flex gap-2">
@@ -84,7 +84,7 @@
      </nav>
 
      <!-- banner -->
-<section class="banner items-center mb-10">
+<section class="banner items-center mb-10" id="home">
   <div class="banner-content flex flex-col gap-4 lg:gap-1">
     <img src="assets/banner.png" class="w-4/5 mx-auto lg:w-[45%]">
     <h1 class="text-center font-extrabold text-[#212121] text-2xl w-[85%] lg:w-3/4 mx-auto text-4xl mb-2">A barn house of this design  has a striking appearance</h1>
@@ -180,7 +180,7 @@
  </section>
 
  <!-- work process -->
-  <section class="work mt-28 w-11/12 mx-auto">
+  <section class="work mt-28 w-11/12 mx-auto" id="services">
     <!-- work content -->
     <div class="work-content items-center flex flex-col gap-2">
       <a class="btn bg-[#ffff] rounded-full w-[75%] flex items-center mt-5 mx-auto
@@ -218,7 +218,7 @@
 
 </main>
  <!-- Portfolio -->
- <section class="w-full bg-gray-100 mt-36 lg:bg-white">
+ <section class="w-full bg-gray-100 mt-36 lg:bg-white" id="portfolio">
   <!-- portfolio content -->
   <div class="work-content items-center flex flex-col gap-2">
     <a class="btn bg-[#ABEF5F33] rounded-full w-[70%] flex items-center mt-5 mx-auto md:w-[30%]
@@ -298,7 +298,7 @@
 
      <!-- unique section (for sale) -->
 
-     <section class="sale w-full mx-auto mt-28">
+     <section class="sale w-full mx-auto mt-28" id="blogs">
       <a class="btn bg-[#ABEF5F33] rounded-full w-[38%] flex items-center mt-5 mx-auto md:w-[30%]
     lg:w-[20%] mb-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>  <p class="lg:text-lg text-[#494949] font-bold">For Sale </p></a>
 
@@ -458,7 +458,7 @@
      </section>
 
      <!-- discuss -->
-      <section class="w-full py-1  mt-36 bg-white">
+      <section class="w-full py-1  mt-36 bg-white" id="contact">
 <div class="form-container w-full mx-auto bg-back-img bg-cover">
   <!-- form -->
    <div class="w-11/12 mx-auto">
