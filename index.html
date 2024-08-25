@@ -22,13 +22,16 @@
             extend: {
               colors: {
                 clifford: '#da373d'
-               
+              
               },
               fontFamily: {
       'manrope': ['Manrope', 'sans-serif'],
     },
     backgroundImage:{
 'back-img':"url('./assets/bg.jpg')",
+    },
+    backgroundColor:{
+'light':"bg-gradient-to-t from-[#FFFFFF]-100% to-[#FFFFFF]-0%",
     },
             }
           }
@@ -38,10 +41,10 @@
 <body class="bg-gray-100">
     
     <!-- header section start -->
-<header class="w-full p-3 mx-auto font-manrope bg-[#FFFFFFFF]">
+<header class="w-full p-3 mx-auto font-manrope bg-gradient-to-t from-[#FFFFFF] to-[#f0efef]">
     <!-- navbar -->
      <nav>
-        <div class="navbar bg-base-100 flex justify-between">
+        <div class="navbar flex justify-between">
             <div class="navbar-start gap-1">
               <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>  <a class="text-3xl font-extrabold text-[#212121]">Rinterio</a>
             </div>
